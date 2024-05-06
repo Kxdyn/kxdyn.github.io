@@ -1,0 +1,79 @@
+::-webkit-scrollbar {
+    display: none;
+}
+html, body, .container {
+    height: 99%;
+    font-family: 'Raleway';
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: rgb(30, 35, 36);
+}
+h1 {
+    font-size: 70px;
+    font-weight: lighter;
+}
+h2 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+p {
+    font-size: 45px;
+}
+a {
+    color: lightgray;
+    font-size: 45px;
+}
+pre {
+    font-size: 45px;
+}
+audio {
+    padding-top: 50px;
+}
+video {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 600;
+    width: 400;
+}
+
+.no-select {
+    user-select: none;
+}
+.main:first-child {
+    padding-top: 8%;
+}
+.main {
+    padding-top: 4%;
+}
+.navbar {
+    top: 5%;
+    right: 3%;
+    font-size: 25px;
+    position: absolute;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid white;
+}
+.navbar a:last-child {
+    border-right: none;
+}
+.navbar #active {
+    font-weight: bold;
+}
+a:hover {
+    font-weight: normal;
+}
+#wave {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
